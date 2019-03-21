@@ -8,6 +8,35 @@ input {
     color: black;
     border-style: none;
 }
+#clock{
+    color: black;
+    font-size: 195px;
+    background-color: whitesmoke;
+    padding: 0.5em 0em;
+    width: 80%;
+    margin: 0px auto;
+    font-family: Helvetica, Arial;
+    text-align: center;
+    
+}
+#clockbanner{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background-color: darkblue;
+    padding: 0.5em 0em;
+    width: 80%;
+    margin: 10% auto 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+}
+#clockbody{
+    background-color: slateblue
+}
+#clockspan{
+    margin-left: 175pc;
+}
 #myForm {
     margin-left: 225px;
     margin-top: 20px;
