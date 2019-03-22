@@ -1,4 +1,4 @@
-input {
+.digit {
     width: 150px;
     height: 100px;
     font-size: 75px;
@@ -7,6 +7,39 @@ input {
     background-color: lightcoral ;
     color: black;
     border-style: none;
+}
+#addup{
+    background-color: cadetblue;
+    border-style: none;
+    border-radius: 10px;
+    width: 220px;
+    height: 45px;
+    color: black;
+    font-size: 30px;
+    margin-right: 120px; 
+}
+#calculatortip{
+    background-color: lightcoral;
+    width: 450px;
+    height: 350px;
+    color: black;
+    padding-top: 30px;
+    border-style: none;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 50px;
+}
+#calculatortip>p>input{
+    float: right;
+    clear: both;
+    width: 125px;
+    height: 30px;
+    margin-top: -16px;
+    text-align: center;
+    font-weight: bold;
+}
+#calculatortip>p{
+    font-size: 35px;
 }
 #clock{
     color: black;
@@ -40,6 +73,9 @@ input {
 #myForm {
     margin-left: 225px;
     margin-top: 20px;
+}
+#percentage{
+    color: deepskyblue;
 }
 h1 {
     text-align: center;
