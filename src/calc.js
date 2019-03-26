@@ -1,7 +1,7 @@
 function calculate(){
     // var amount is used to retrive values from the amount and % fields and store them inside variables
     // $ dollare sign is a reff to the j query library
-    var amount = $('#amount').val;
+    var amount = $('#amount').val();
     // % var does the same thing as amount and .val will calculate the value
     var percentage = $('#percentage').val();
     // amount is a string so it needs to be converted in the number function below.
@@ -14,6 +14,6 @@ function calculate(){
     // return used to prevent submission, browser wont return a new page because of any code below.
     return false;
 }
+$('#calculatortip').submit(calculate);
 
-$('#calculator').submit(calculate);
 
