@@ -12,9 +12,14 @@
 
 </head>
 <body class="container">
+        <div id="nav">
+                <a href="./calendar.html">Calendar</a>
+                <a href="./clock.html">Clocks</a>
+                <a href="./calc.html">Calculators</a>
+                </div>
 <div class="container col-sm-4 col-md-7 col-lg-4 mt-5">
     <div>
-        <h3 class="card-header" id="monthAndYear"></h3>
+        <h3 id="monthAndYear"></h3>
         <table class="table table-bordered table-responsive-sm" id="calendar">
             <thead>
             <tr>
@@ -27,13 +32,13 @@
                 <th>Sat</th>
             </tr>
             </thead>
-
+      <!--the id calendar-body is used in the function to populate the calendar-->
             <tbody id="calendar-body">
 
             </tbody>
         </table>
 
-        <div class="form-inline">
+        <div class="calendarButtons">
 
             <button class="btn btn-outline-primary col-sm-6" id="previous" onclick="previous()">Previous</button>
 
@@ -42,7 +47,7 @@
         <br/>
         <form class="form-inline">
             <label class="lead mr-2 ml-2" for="month">Jump To: </label>
-            <select class="form-control col-sm-4" name="month" id="month" onchange="jump()">
+            <select class="calendarButtons col-sm-4" name="month" id="month" onchange="jump()">
                 <option value=0>Jan</option>
                 <option value=1>Feb</option>
                 <option value=2>Mar</option>
@@ -58,7 +63,7 @@
             </select>
 
 
-            <label for="year"></label><select class="form-control col-sm-4" name="year" id="year" onchange="jump()">
+            <label for="year"></label><select class="calendarButtons col-sm-4" name="year" id="year" onchange="jump()">
             
             <option value=2019>2019</option>
             <option value=2020>2020</option>
@@ -78,7 +83,7 @@
 <!--<button name="jump" onclick="jump()">Go</button>-->
 <script src="./src/calendar.js"></script>
 
-<!-- jQuery first , then Bootstrap JS -->
+<!-- jQuery first then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

@@ -24,6 +24,15 @@
     height: 100%;
     
 }
+.calendarButtons {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgb(219, 240, 128);
+  }
 #calculatortip{
     background-color: rgb(219, 240, 128);
     width: 450px;
@@ -51,7 +60,7 @@
 #clock{
     color: black;
     font-size: 195px;
-    background-color: whitesmoke;
+    background-color: rgb(219, 240, 128);
     padding: 0.5em 0em;
     width: 80%;
     margin: 0px auto;
@@ -63,7 +72,8 @@
     color: red;
     font-size: 50px;
     text-align: center;
-    background-color: darkblue;
+    background-color: rgb(219, 240, 128);
+
     padding: 0.5em 0em;
     width: 80%;
     margin: 10% auto 0%;
