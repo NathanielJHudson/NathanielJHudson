@@ -15,5 +15,3 @@ function calculate(){
     return false;
 }
 $('#calculatortip').submit(calculate);
-
-
