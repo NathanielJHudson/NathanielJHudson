@@ -1,6 +1,6 @@
 var alarmSound = new Audio();
 
-alarmSound.src = 'alarm.mp3';
+alarmSound.src = 'its_always_sunny.mp3';
 var alarmTimer;
 // set interval function keeps the clocks runnning as long as browser window is open
 
