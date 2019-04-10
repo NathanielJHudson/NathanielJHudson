@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculators</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-<body class="calcContainer">
-        <div id="nav">
-                <a href="./index.html">Home</a>
-                <a href="./calendar.html">Calendar</a>
-                <a href="./clock.html">Clocks</a>
-            </div>
+<body class="container">
+        <body class="container">
+                <div>
+                <h1>Calculator Utility</h1>
+                <h2>
+                <div id="nav">
+                <a href="./index.html"><i class="fas fa-home"></i></a>
+                <a href="./calendar.html"><i class="far fa-calendar"></i></a>
+                <a href="./clock.html"><i class="far fa-clock"></i></a>
+                </div>
+              </h2>
+                <div class="bothCalc">
      <form id="myForm" Name="calc">
         <h1>Calculator</h1>
     
@@ -39,7 +46,7 @@
         <input type=button value="&#247" id="digit" onclick="calc.display.value+='/'">
     </form>
 
-    
+
 
 
     
@@ -54,11 +61,11 @@
         <p><input id="addup" type="submit" value="Calculate" /></p>
 
     </form>
-
 </div>
 
 
-</div>
+
+
 
     <script src="./src/calc.js"></script>
     

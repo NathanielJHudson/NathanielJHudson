@@ -1,3 +1,9 @@
+html{
+    font-size: 35px;
+}
+footer{
+    text-align: center;
+}
 #digit {
     width: 150px;
     height: 100px;
@@ -39,20 +45,15 @@
 .calcContainer{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     background-color:lightcoral;
-    width: 100%;
-    height: 100%;
+
     
 }
-.indexContainer{
+.container{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     background-color:lightcoral;
-    width: 100%;
-    height: 100%;
-    
+
 }
 .clockContainer{
     background-color: lightcoral;
@@ -66,12 +67,15 @@
     align-items: center;
     background-color: rgb(219, 240, 128);
   }
+  .bothCalc{
+      display: flex;
+      
+      
+  }
   
 #calculatortip{
     background-color: rgb(219, 240, 128);
     width: 500px;
-    height: 596px;
-    color: black;
     border-style: solid;
     border-radius: 25px;
     margin: auto;
@@ -79,10 +83,7 @@
 #calculatortip>p>input{
     float:right;
     clear: both;
-    width: 153px;
     height: 39px;
-    margin-top: -16px;
-    text-align: center;
     font-weight: bold;
     background-color: cadetblue;
     border-style: dotted;
@@ -123,11 +124,9 @@
 }
 #myForm {
     background-color: rgb(219, 240, 128);
-    display: block;
-    margin-left: 0px;
-    margin-top: 20px;
     border-style: solid;
     border-radius: 25px;
+    margin-right: .3em;
 }
 #myForm>p>input{
 background-color: cadetblue;
@@ -137,19 +136,34 @@ font-size: 75px;
 border-style: dotted
 }
 #nav{
-    display: flex;
-    justify-content: center;  
-    font-size-adjust: inherit;
-}
-h1 {
+    flex-basis: 100%;
     text-align: center;
-    font-size: 80px;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+ul{
+    display: flex;
+    margin-bottom: 1.5rem;
+    }
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
     margin-right: 150px;
     margin-top: 20px;
 }
-.indexContainer p{
-    border-style: solid
+h5{
+    line-height: 1.5;
+    margin-left: .4em;
+    margin-right: .4em
 }
-ul{
-    display: flex;
+li{
+    line-height: 1.5;
+    list-style-type: none;
+    border-style: solid;
+    margin-left: .5em;
+    margin-right: .5em;
+
 }
