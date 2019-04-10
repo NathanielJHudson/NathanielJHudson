@@ -1,3 +1,6 @@
+/* eslint-disable func-names */
+/* eslint-disable vars-on-top */
+/* eslint-disable complexity */
 var alarmSound = new Audio();
 
 alarmSound.src = 'its_always_sunny.mp3';
@@ -68,6 +71,7 @@ function setAlarm(button){
         return;
     }
     // set time out starts function
+    // eslint-disable-next-line no-use-before-define
     alarmTimer = setTimeout(initAlarm, differenceInMs);
     button.innerText = 'Cancel Alarm';
     button.setAttribute('onclick', 'cancelAlarm(this);');
@@ -84,6 +88,7 @@ function initAlarm(){
     document.getElementById('alarmOptions').style.display = '';
 }
 
+// eslint-disable-next-line no-unused-vars
 function stopAlarm(){
     alarmSound.pause();
     alarmSound.currentTime = 0;
