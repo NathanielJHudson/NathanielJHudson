@@ -1,132 +1,126 @@
-html{
-    font-size: 35px;
+
+/* html{ 
+font-size: 35px;
 }
 footer{
-    text-align: center;
+text-align: center;
 }
 #digit {
-    width: 150px;
-    height: 100px;
-    font-size: 75px;
-    border-radius: 70px;
-    margin: 10px;
-    background-color:lightcoral;
-    color: black;
-    border-style: none;
+width: 150px;
+height: 100px;
+font-size: 75px;
+border-radius: 70px;
+margin: 10px;
+background-color:lightcoral;
+color: black;
+border-style: none;
 }
 #alarmButton{
-    display: flex;
-    background-color: cadetblue;
-    border-radius: 25px;
+display: flex;
+background-color: cadetblue;
+border-radius: 25px;
 }
 #alarmTime{
-    border-style: solid;
-    border-radius: 25px;
-    font-size: 50px;
-    background-color: rgb(219, 240, 128);
-    padding: 10px 0px;
-    width: 100%;
-    margin: 0px auto;
-    font-family: Helvetica, Arial;
-    text-align: center;
-
-    
+border-style: solid;
+border-radius: 25px;
+font-size: 50px;
+background-color: rgb(219, 240, 128);
+padding: 10px 0px;
+width: 100%;
+margin: 0px auto;
+font-family: Helvetica, Arial;
+text-align: center;
 }
 #addup{
-    background-color: cadetblue;
-    border-style: none;
-    border-radius: 10px;
-    width: 220px;
-    height: 45px;
-    color: black;
-    font-size: 30px;
-    margin-right: 120px; 
+background-color: cadetblue;
+border-style: none;
+border-radius: 10px;
+width: 220px;
+height: 45px;
+color: black;
+font-size: 30px;
+margin-right: 120px; 
 }
 .calcContainer{
-    display: flex;
-    flex-wrap: wrap;
-    background-color:lightcoral;
-
-    
+display: flex;
+flex-wrap: wrap;
+background-color:lightcoral;
 }
 .container{
-    background-color:lightcoral;
-
+background-color:lightcoral;
 }
 .clockContainer{
-    background-color: lightcoral;
+background-color: lightcoral;
 }
 
 .calendarButtons {
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: rgb(219, 240, 128);
-  }
-  .bothCalc{
-      display: flex;
-      
-      
-  }
-  
+display: flex;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+-ms-flex-align: center;
+align-items: center;
+background-color: rgb(219, 240, 128);
+}
+.bothCalc{
+display: flex;
+}
+
+.phonebookcontainer{
+background-color: lightcoral;
+}
 #calculatortip{
-    background-color: rgb(219, 240, 128);
-    width: 500px;
-    border-style: solid;
-    border-radius: 25px;
-    margin: auto;
-    padding: 1em;
+background-color: rgb(219, 240, 128);
+width: 500px;
+border-style: solid;
+border-radius: 25px;
+margin: auto;
+padding: 1em;
 }
 #calculatortip>p>input{
-    float:right;
-    clear: both;
-    height: 39px;
-    font-weight: bold;
-    background-color: cadetblue;
-    border-style: dotted;
+float:right;
+clear: both;
+height: 39px;
+font-weight: bold;
+background-color: cadetblue;
+border-style: dotted;
 }
 #calculatortip>p{
-    font-size: 35px;
+font-size: 35px;
 }
 #clock{
-    border-style: solid;
-    border-radius: 25px;
-    font-size: 195px;
-    background-color: rgb(219, 240, 128);
-    padding: 0.5em 0em;
-    width: 80%;
-    margin: 0px auto;
-    font-family: Helvetica, Arial;
-    text-align: center;
-    margin-bottom: .1em;
-    
+border-style: solid;
+border-radius: 25px;
+font-size: 195px;
+background-color: rgb(219, 240, 128);
+padding: 0.5em 0em;
+width: 80%;
+margin: 0px auto;
+font-family: Helvetica, Arial;
+text-align: center;
+margin-bottom: .1em;
 }
 
 #clockbanner{
-    color: red;
-    font-size: 50px;
-    text-align: center;
-    background-color: rgb(219, 240, 128);
-
-    padding: 0.5em 0em;
-    width: 80%;
-    margin: 10% auto 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    text-transform: uppercase;
+color: red;
+font-size: 50px;
+text-align: center;
+background-color: rgb(219, 240, 128);
+padding: 0.5em 0em;
+width: 80%;
+margin: 10% auto 0%;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+text-transform: uppercase;
 }
-    
 #clockspan{
-    margin-left: 175pc;
+margin-left: 175pc;
 }
 #myForm {
-    background-color: rgb(219, 240, 128);
-    border-style: solid;
-    border-radius: 25px;
-    padding: .2em;
-    margin-left: .4em;
+background-color: rgb(219, 240, 128);
+border-style: solid;
+border-radius: 25px;
+padding: .2em;
+margin-left: .4em;
 }
 #myForm>p>input{
 background-color: cadetblue;
@@ -136,16 +130,16 @@ font-size: 75px;
 border-style: dotted
 }
 #nav{
-    flex-basis: 100%;
-    text-align: center;
+flex-basis: 100%;
+text-align: center;
 }
 h1{
-    text-align: center;
-    font-size: 2rem;
+text-align: center;
+font-size: 2rem;
 }
 
 ul{
-    display: flex;
+display: flex;
     margin-bottom: 1.5rem;
     }
 h3 {
@@ -155,26 +149,26 @@ h3 {
     margin-top: 20px;
 }
 h5{
-    line-height: 1.5;
-    margin-left: .4em;
-    margin-right: .4em;
-    border-style: solid;
-    border-radius: 22px;
-    background-color: rgb(219, 240, 128);
-    
+line-height: 1.5;
+margin-left: .4em;
+margin-right: .4em;
+border-style: solid;
+border-radius: 22px;
+background-color: rgb(219, 240, 128);
 }
 li{
-    line-height: 1.5;
-    list-style-type: none;
-    border-radius: 22px;
-    border-style: solid;
-    margin-left: .5em;
-    margin-right: .5em;
-    background-color: rgb(219, 240, 128);
+line-height: 1.5;
+list-style-type: none;
+border-radius: 22px;
+border-style: solid;
+margin-left: .5em;
+margin-right: .5em;
+background-color: rgb(219, 240, 128);
 
 }
 #monthAndYear{
-    border-style: solid;
-    border-radius: 25px;
-    background-color: rgb(219, 240, 128)
+border-style: solid;
+border-radius: 25px;
+background-color: rgb(219, 240, 128)
 }
+*/
