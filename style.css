@@ -1,0 +1,11 @@
+h1{
+   color: cadetblue; 
+}
+body{
+    background-image:none;
+    background-size: cover;
+}
+li{
+    list-style: none;
+    border-style: solid;
+}
